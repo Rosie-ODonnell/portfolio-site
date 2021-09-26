@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@200&display=swap");
 
 body {
-  font-family: "Viga", sans-serif;
+  font-family: "Yaldevi", sans-serif;
   animation: fadeIn 3s;
+  background-color: white;
 }
 
 .main__circle {
@@ -20,15 +21,16 @@ body {
   z-index: -1;
   height: 35rem;
   width: 35rem;
-  border-color: transparent;
+  box-shadow: 1px 1px 5px #999 inset;
 }
 
 .outer {
-  background-image: linear-gradient(200deg, #e20fcd, white);
+  background-image: linear-gradient(320deg, #e20fcd, yellow);
   z-index: -2;
   height: 40rem;
   width: 40rem;
-  animation: outer infinite 5s linear;
+  animation: outer infinite 6s linear;
+  box-shadow: 1px 1px 5px #999;
 }
 
 .titles {
@@ -43,20 +45,22 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   animation: fadeIn 5s;
+  color: #313639;
 }
 
 h2 {
   font-size: 1rem;
   animation: fadeIn 10s;
+  color: #313639;
 }
 
 /* NAVIGATION */
 
 .navigation {
   display: flex;
-  width: 20rem;
+  width: 15rem;
   height: 5rem;
   margin: 3em auto 0;
   justify-content: space-between;
@@ -64,7 +68,7 @@ h2 {
 }
 
 .navigation img {
-  height: 3em;
+  height: 2em;
   opacity: 100%;
 }
 
@@ -74,11 +78,11 @@ h2 {
 }
 
 #li {
-  width: 3.5em;
+  width: 2.5em;
 }
 
 #twitter {
-  width: 3.4em;
+  width: 2.4em;
 }
 
 /* KEYFRAMES  */
