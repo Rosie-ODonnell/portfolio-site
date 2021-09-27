@@ -8,8 +8,8 @@ function Main() {
       <div className="main__circle inner"></div>
 
       <div className="titles">
-        <h1>ROSIE O'DONNELL</h1>
-        <h2>SOFTWARE ENGINEER</h2>
+        <h1>Rosie O'Donnell</h1>
+        <h2>Software Engineer</h2>
         <Navigation />
       </div>
     </div>
