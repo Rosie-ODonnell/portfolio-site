@@ -5,9 +5,6 @@ function Main() {
   return (
     <div className="center">
       <Script />
-      <img src="../../public/images/Twitter.svg" alt="twitter">
-        {" "}
-      </img>
     </div>
   );
 }
