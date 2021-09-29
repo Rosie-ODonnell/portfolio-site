@@ -39,7 +39,6 @@
 }
 
 .navigation img:hover {
-  opacity: 70%;
   transform: scale(1.3);
 }
 
