@@ -6,23 +6,25 @@ function Script() {
       <Typewriter
         onInit={(typewriter) => {
           typewriter
+            .changeDelay(90)
+            .pauseFor(200)
             .typeString("Act 1 ")
             .start()
-            .pauseFor(1000)
+            .pauseFor(500)
             .typeString("<br><br><br> Scene 1:")
-            .pauseFor(1000)
+            .pauseFor(500)
             .typeString(" London.")
-            .pauseFor(1000)
+            .pauseFor(500)
             .typeString(" A home office.")
-            .pauseFor(1000)
+            .pauseFor(500)
             .typeString(
               "<br><br><br><span class='italic'>(Enter Rosie O'Donnell)</span>"
             )
-            .pauseFor(1000)
+            .pauseFor(500)
             .typeString("<br><br><br> ROSIE:")
-            .pauseFor(1000)
+            .pauseFor(500)
             .typeString("<br><br><br> Hey,")
-            .pauseFor(1000)
+            .pauseFor(500)
             .typeString(" I'm a fullstack developer");
         }}
       />

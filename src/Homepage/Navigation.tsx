@@ -6,7 +6,12 @@ function Navigation() {
   return (
     <div className="navigation">
       <a href="https://www.linkedin.com/in/rosie-o-39a374a8/">
-        <img src="/images/LI.png" alt="linked in logo" id="li" />
+        <img
+          src="/images/LI.png"
+          alt="linked in logo"
+          id="li"
+          className="delayedShow"
+        />
       </a>
 
       <a href="https://github.com/Rosie-ODonnell">
