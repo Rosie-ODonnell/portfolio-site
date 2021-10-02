@@ -1,6 +1,6 @@
 import Script from "./Script";
 import Navigation from "./Navigation";
-import "./Homepage.css";
+import "./homepage.css";
 
 function Main() {
   return (
