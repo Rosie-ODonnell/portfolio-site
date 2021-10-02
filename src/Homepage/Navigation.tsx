@@ -15,10 +15,19 @@ function Navigation() {
       </a>
 
       <a href="https://github.com/Rosie-ODonnell">
-        <img src="/images/GitHub.png" alt="github logo" />
+        <img
+          src="/images/GitHub.png"
+          alt="github logo"
+          className="delayedShow2"
+        />
       </a>
       <a href="https://twitter.com/_roseodonnell" id="twitter">
-        <img src={Twitter} alt="twitter logo" id="twitter" />
+        <img
+          src={Twitter}
+          alt="twitter logo"
+          id="twitter"
+          className="delayedShow3"
+        />
       </a>
     </div>
   );

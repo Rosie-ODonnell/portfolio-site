@@ -45,16 +45,38 @@
   width: 2em;
 }
 
-/* @keyframes delayedShow {
+@keyframes delayedShow {
+  from {
+    opacity: 0;
+  }
   to {
-    visibility: visible;
+    opacity: 1;
   }
 }
 
 .delayedShow {
-  visibility: hidden;
-  animation: 0s linear 10s forwards delayedShow;
-} */
+  opacity: 0;
+  animation-name: delayedShow;
+  animation-delay: 15s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.delayedShow2 {
+  opacity: 0;
+  animation-name: delayedShow;
+  animation-delay: 16s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+.delayedShow3 {
+  opacity: 0;
+  animation-name: delayedShow;
+  animation-delay: 17s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
 
 .navigation img:hover {
   transform: scale(1.3);

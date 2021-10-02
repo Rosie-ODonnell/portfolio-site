@@ -11,11 +11,7 @@ function Script() {
             .typeString("Act 1 ")
             .start()
             .pauseFor(500)
-            .typeString("<br><br><br> Scene 1:")
-            .pauseFor(500)
-            .typeString(" London.")
-            .pauseFor(500)
-            .typeString(" A home office.")
+            .typeString("<br><br><br> Scene 1: London. A home office.")
             .pauseFor(500)
             .typeString(
               "<br><br><br><span class='italic'>(Enter Rosie O'Donnell)</span>"
