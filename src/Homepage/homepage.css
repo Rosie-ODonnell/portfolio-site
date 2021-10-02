@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;1,300&display=swap");
 
-.script {
+.center {
   margin: auto;
   top: 0;
   right: 0;
@@ -12,8 +12,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.script {
   font-family: monospace;
   font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .bold {

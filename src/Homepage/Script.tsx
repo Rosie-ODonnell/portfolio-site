@@ -1,15 +1,31 @@
-import Navigation from "./Navigation";
+import Typewriter from "typewriter-effect";
 
 function Script() {
   return (
     <div className="script">
-      <p className="line__1 ">Act 1</p>
-      <p className="line__2">Scene 1: London. A home office.</p>
-      <p className="line italic">(Enter Rosie O'Donnell)</p>
-      <p className="line">ROSIE:</p>
-      <p className="line">Hey, I'm a fullstack developer</p>
-
-      <Navigation />
+      <Typewriter
+        onInit={(typewriter) => {
+          typewriter
+            .typeString("Act 1 ")
+            .start()
+            .pauseFor(1000)
+            .typeString("<br><br><br> Scene 1:")
+            .pauseFor(1000)
+            .typeString(" London.")
+            .pauseFor(1000)
+            .typeString(" A home office.")
+            .pauseFor(1000)
+            .typeString(
+              "<br><br><br><span class='italic'>(Enter Rosie O'Donnell)</span>"
+            )
+            .pauseFor(1000)
+            .typeString("<br><br><br> ROSIE:")
+            .pauseFor(1000)
+            .typeString("<br><br><br> Hey,")
+            .pauseFor(1000)
+            .typeString(" I'm a fullstack developer");
+        }}
+      />
     </div>
   );
 }
