@@ -16,7 +16,7 @@
 
 .script {
   font-family: monospace;
-  font-size: 1.1rem;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,6 +44,17 @@
   height: 2em;
   width: 2em;
 }
+
+/* @keyframes delayedShow {
+  to {
+    visibility: visible;
+  }
+}
+
+.delayedShow {
+  visibility: hidden;
+  animation: 0s linear 10s forwards delayedShow;
+} */
 
 .navigation img:hover {
   transform: scale(1.3);
