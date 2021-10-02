@@ -1,5 +1,5 @@
 import Script from "./Script";
-import "./homepage.css";
+import "./Homepage.css";
 
 function Main() {
   return (

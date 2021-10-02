@@ -8,6 +8,7 @@ function Script() {
       <p className="line italic">(Enter Rosie O'Donnell)</p>
       <p className="line">ROSIE:</p>
       <p className="line">Hey, I'm a fullstack developer</p>
+
       <Navigation />
     </div>
   );

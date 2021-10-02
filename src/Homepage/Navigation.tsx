@@ -1,4 +1,4 @@
-import "./homepage.css";
+import "./Homepage.css";
 
 import Twitter from "./Twitter.svg";
 
