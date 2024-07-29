@@ -6,7 +6,7 @@ function Navigation() {
   return (
     <div className="navigation">
       <a
-        href="https://www.linkedin.com/in/rosie-o-39a374a8/"
+        href="https://www.linkedin.com/in/rosieo/"
         target="_blank"
         rel="noreferrer"
       >
