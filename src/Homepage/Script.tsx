@@ -14,7 +14,7 @@ function Script() {
             .typeString("<br><br><br> Scene 1: London. A home office.")
             .pauseFor(500)
             .typeString(
-              "<br><br><br><span class='italic'>(Enter Rosie O'Donnell)</span>"
+              "<br><br><br><span class='italic'>(Enter Rosie Ollerenshaw (O'Donnell))</span>"
             )
             .pauseFor(500)
             .typeString("<br><br><br> ROSIE:")

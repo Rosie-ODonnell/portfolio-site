@@ -1,6 +1,5 @@
 import "./homepage.css";
 
-import Twitter from "./Twitter.svg";
 
 function Navigation() {
   return (
@@ -27,19 +26,6 @@ function Navigation() {
           src="/images/GitHub.png"
           alt="github logo"
           className="delayedShow2"
-        />
-      </a>
-      <a
-        href="https://twitter.com/_roseodonnell"
-        id="twitter"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img
-          src={Twitter}
-          alt="twitter logo"
-          id="twitter"
-          className="delayedShow3"
         />
       </a>
     </div>
