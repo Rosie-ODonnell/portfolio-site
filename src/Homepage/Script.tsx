@@ -1,3 +1,4 @@
+import React from "react";
 import Typewriter from "typewriter-effect";
 
 function Script() {
@@ -21,7 +22,7 @@ function Script() {
             .pauseFor(500)
             .typeString("<br><br><br> Hey,")
             .pauseFor(500)
-            .typeString(" I'm a fullstack developer");
+            .typeString(" I'm a fullstack engineer");
         }}
       />
     </div>

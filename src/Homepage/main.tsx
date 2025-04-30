@@ -1,6 +1,7 @@
 import Script from "./Script";
 import Navigation from "./Navigation";
 import "./homepage.css";
+import React from "react";
 
 function Main() {
   return (
