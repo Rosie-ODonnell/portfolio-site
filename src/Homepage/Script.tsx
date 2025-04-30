@@ -1,3 +1,4 @@
+import React from "react";
 import Typewriter from "typewriter-effect";
 
 function Script() {
@@ -14,14 +15,14 @@ function Script() {
             .typeString("<br><br><br> Scene 1: London. A home office.")
             .pauseFor(500)
             .typeString(
-              "<br><br><br><span class='italic'>(Enter Rosie O'Donnell)</span>"
+              "<br><br><br><span class='italic'>(Enter Rosie Ollerenshaw (O'Donnell))</span>"
             )
             .pauseFor(500)
             .typeString("<br><br><br> ROSIE:")
             .pauseFor(500)
             .typeString("<br><br><br> Hey,")
             .pauseFor(500)
-            .typeString(" I'm a fullstack developer");
+            .typeString(" I'm a fullstack engineer");
         }}
       />
     </div>
